@@ -2,7 +2,7 @@
   <img src="https://graph.org/file/4b1c65a9704b7a2624684.jpg" alt="VJ-FILE-STORE-BOT Logo">
 </p>
 <h1 align="center">
-  VJ FILE STORE BOT
+  Prime Movies Store RoBot
 </h1>
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+VJ-FILE-STORE-BOT;A+Highly+Advance+File+Store+Bot;Made+By+Yt-@Tech_VJ!;With+Clone+Feature+Stream/Download+Link;Custom+Url+Shortner+Auto+Delete+Feature;A+Bot+With+Fully+Advanced+Feature!;Must+Give+Credit+To+Tech+VJ;Because+He+Public+The+Paid+Repo;Thank+You!)
