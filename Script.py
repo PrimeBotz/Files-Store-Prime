@@ -15,7 +15,7 @@ class script(object):
 
 sɪᴢᴇ ⚙️: {file_size}
 
-Jᴏɪɴ [Movies Request Group](https://t.me/+yRq4k6J8o2E0OWJl)</b>""" 
+Jᴏɪɴ Now ➠ [Movies Request Group](https://t.me/+yRq4k6J8o2E0OWJl)</b>""" 
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
