@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://graph.org/file/d57d6f83abb6b8d0efb02.jpg" alt="VJ-FILE-STORE-BOT Logo">
+  <img src="https://graph.org/file/4b1c65a9704b7a2624684.jpg" alt="VJ-FILE-STORE-BOT Logo">
 </p>
 <h1 align="center">
   VJ FILE STORE BOT
@@ -8,7 +8,7 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+VJ-FILE-STORE-BOT;A+Highly+Advance+File+Store+Bot;Made+By+Yt-@Tech_VJ!;With+Clone+Feature+Stream/Download+Link;Custom+Url+Shortner+Auto+Delete+Feature;A+Bot+With+Fully+Advanced+Feature!;Must+Give+Credit+To+Tech+VJ;Because+He+Public+The+Paid+Repo;Thank+You!)
 </p>
 
-### Deploy Tutorial [Video Link](https://youtu.be/VxAn9VcYtQg)
+### Deploy [Nayem](https://T.me/Prime_Nayem)
 
 ## Features
 
