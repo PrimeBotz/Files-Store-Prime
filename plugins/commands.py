@@ -411,7 +411,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('💝 Movie Request Group ❤️‍🔥', url='https://t.me/+OzcPK0fNNew5Yjk1')
             ],[
             InlineKeyboardButton('☢️ Any Problem sᴜᴘᴘᴏʀᴛ For Me ☢️', url='https://t.me/Prime_Bots_Support_RoBot'),
-            InlineKeyboardButton('✨ Main ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ✨', url='https://t.me/Prime_Movies4U')
+            InlineKeyboardButton('✨ Main ᴄʜᴀɴɴᴇʟ ✨', url='https://t.me/Prime_Movies4U')
             ],[
             InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')
             ],[
