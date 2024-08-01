@@ -57,7 +57,7 @@ async def start(client, message):
             InlineKeyboardButton('💝 Movie Request Group ❤️‍🔥', url='https://t.me/+OzcPK0fNNew5Yjk1')
             ],[
             InlineKeyboardButton('☢️ Any Problem sᴜᴘᴘᴏʀᴛ For Me ☢️', url='https://t.me/Prime_Bots_Support_RoBot'),
-            InlineKeyboardButton('✨ Main Update Channel ✨', url='https://t.me/Prime_Movues4U')
+            InlineKeyboardButton('✨ Main Channel ✨', url='https://t.me/Prime_Movies4U')
             ],[
             InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
