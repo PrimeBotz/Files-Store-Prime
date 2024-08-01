@@ -53,7 +53,7 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 
 ⍟ Movies Request Group: <a href=https://t.me/+yRq4k6J8o2E0OWJl>Prime Movie Request Group</a>
 
-🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/Prime_Nayem>Nayem</a>
+🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/Prime_Nayem>S.H Nayem</a>
 
 👥 Any Problem sᴜᴘᴘᴏʀᴛ : <a href=https://t.me/Prime_Bots_Support_RoBot>Prime 𝐒𝐮𝐩𝐩𝐨𝐫𝐭</a>
 
