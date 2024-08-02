@@ -16,7 +16,12 @@ def is_enabled(value, default):
         return False
     else:
         return default
-      
+        
+
+AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002043502363').split()] # give channel id with seperate space. Ex : ('-10073828 -102782829 -1007282828')
+
+
+
 # Bot Information
 API_ID = int(environ.get("API_ID", "25425840"))
 API_HASH = environ.get("API_HASH", "e6ea2eca4aa38e965511f323e5ffa578")
