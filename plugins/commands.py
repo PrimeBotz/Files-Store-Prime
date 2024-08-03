@@ -12,7 +12,7 @@ from plugins.dbusers import db
 from pyrogram import Client, filters, enums
 from plugins.users_api import get_user, update_user_info
 from plugins.database import get_file_details
-from pyrogram.errors import ChatAdminRequired, FloodWait
+from pyrogram.errors import *
 from pyrogram.types import *
 from utils import verify_user, check_token, check_verification, get_token
 from config import *
@@ -21,7 +21,7 @@ import json
 import base64
 from urllib.parse import quote_plus
 from TechVJ.utils.file_properties import get_name, get_hash, get_media_file_size
-logger = logging.getLogger(__name__)
+logger = logging.getLogger(name)
 
 BATCH_FILES = {}
 
