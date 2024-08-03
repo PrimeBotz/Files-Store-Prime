@@ -69,8 +69,7 @@ async def start(client, message):
                     btn.append([InlineKeyboardButton("♻️ Try Again ♻️", url=f"https://t.me/{username}?start={message.command[1]}")])
                 else:
                     btn.append([InlineKeyboardButton("♻️ Try Again ♻️", url=f"https://t.me/{username}?start=true")])
-                await message.reply_text(text=f"<b>👋 Hello {message.from_user.mention},\n\nPlease Click 👇👇 Prime Movie 👇👇 Than Join ta chat and then click on try again♻️ button. 😇
-                প্রথমে Prime Movie 👇👇 এর বাটনে ক্লিক করুন তারপর একটা চ্যানেল আসবে সেখানে সেখানে প্রথমে জন্ম হয় নি তারপর ব্যাক এসে Try Again ♻️ এ ক্লিক করুন তাহলে ফাইল টি পেয়ে যাবেন 🥰</b>", reply_markup=InlineKeyboardMarkup(btn))
+                await message.reply_text(text=f"<b>👋 Hello {message.from_user.mention},\n\nPlease Click 👇👇 Prime Movie 👇👇 Than Join ta chat and then click on try again♻️ button. 😇 . প্রথমে Prime Movie 👇👇 এর বাটনে ক্লিক করুন তারপর একটা চ্যানেল আসবে সেখানে সেখানে প্রথমে জন্ম হয় নি তারপর ব্যাক এসে Try Again ♻️ এ ক্লিক করুন তাহলে ফাইল টি পেয়ে যাবেন 🥰</b>", reply_markup=InlineKeyboardMarkup(btn))
                 return
         except Exception as e:
             print(e)
