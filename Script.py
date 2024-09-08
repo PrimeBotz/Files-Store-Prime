@@ -17,7 +17,7 @@ class script(object):
 
 sɪᴢᴇ ⚙️: {file_size}
 
-Jᴏɪɴ Now ➠ [𝐌𝐎𝐕𝐈𝐄𝐒 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏 ✨](https://t.me/+yRq4k6J8o2E0OWJl)</b>""" 
+Jᴏɪɴ Now ➠ [𝐌𝐎𝐕𝐈𝐄𝐒 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏 ✨](https://t.me/+OG3sftDEbZ9kMzFl)</b>""" 
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -53,7 +53,7 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 
 ⍟ 𝙼𝙰𝙸𝙽 𝙱𝙾𝚃'𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻: <a href=https://t.me/Prime_Botz>𝐏𝐑𝐈𝐌𝐄 𝐁𝐎𝐓'𝐒 ✨</a>
 
-⍟ 𝙼𝙾𝚅𝙸𝙴𝚂 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙶𝚁𝙾𝚄𝙿: <a href=https://t.me/+yRq4k6J8o2E0OWJl>𝐏𝐑𝐈𝐌𝐄 𝐌𝐎𝐕𝐈𝐄𝐒 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏</a>
+⍟ 𝙼𝙾𝚅𝙸𝙴𝚂 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙶𝚁𝙾𝚄𝙿: <a href=https://t.me/+OG3sftDEbZ9kMzFl>𝐏𝐑𝐈𝐌𝐄 𝐌𝐎𝐕𝐈𝐄𝐒 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏</a>
 
 🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/Prime_Nayem>𝐒.𝐇 𝐍𝐀𝐘𝐄𝐌</a>
 
