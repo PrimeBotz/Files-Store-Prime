@@ -32,7 +32,7 @@ async def is_subscribed(bot, query, channel):
         try:
             await bot.get_chat_member(id, query.from_user.id)
         except UserNotParticipant:
-            btn.append([InlineKeyboardButton(f'Join {chat.title}', url=chat.invite_link)])
+            btn.append([InlineKeyboardButton(f'✇ Jᴏɪɴ Oᴜʀ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=chat.invite_link)])
         except Exception as e:
             pass
     return btn
@@ -65,10 +65,14 @@ async def start(client, message):
             btn = await is_subscribed(client, message, AUTH_CHANNEL)
             if btn:
                 username = (await client.get_me()).username
-                if message.command[1]:
-                    btn.append([InlineKeyboardButton("♻️ Try Again ♻️", url=f"https://t.me/{username}?start={message.command[1]}")])
-                else:
-                    btn.append([InlineKeyboardButton("♻️ Try Again ♻️", url=f"https://t.me/{username}?start=true")])
+                # Try Again button removed, keeping spaces intact
+                # if message.command[1]:
+                #     btn.append([InlineKeyboardButton("♻️ Try Again ♻️", url=f"https://t.me/{username}?start={message.command[1]}")])
+                # else:
+                #     btn.append([InlineKeyboardButton("♻️ Try Again ♻️", url=f"https://t.me/{username}?start=true")])
+        except Exception as e:
+            pass
+    return btn
                 
                 # এখানে পিকচার URL যোগ করতে হবে, উদাহরণস্বরূপ "photo='https://example.com/your_image.jpg'"
                 await message.reply_photo(
