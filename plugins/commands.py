@@ -69,19 +69,27 @@ async def start(client, message):
                     btn.append([InlineKeyboardButton("♻️ Try Again ♻️", url=f"https://t.me/{username}?start={message.command[1]}")])
                 else:
                     btn.append([InlineKeyboardButton("♻️ Try Again ♻️", url=f"https://t.me/{username}?start=true")])
-                await message.reply_text(text=f"<b>👋 Hello {message.from_user.mention},\n\nPlease join the channel then click on try again button. 😇</b>", reply_markup=InlineKeyboardMarkup(btn))
+                
+                # এখানে পিকচার URL যোগ করতে হবে, উদাহরণস্বরূপ "photo='https://example.com/your_image.jpg'"
+                await message.reply_photo(
+                    photo='https://envs.sh/AfJ.jpg',  # এখানে আপনার ইমেজের URL যোগ করুন
+                    caption=f"<b>👋 Hello {message.from_user.mention},\n\nPlease join the channel then click on try again button. 😇</b>",
+                    reply_markup=InlineKeyboardMarkup(btn)
+                )
                 return
         except Exception as e:
             print(e)
+
     username = (await client.get_me()).username
     if not await db.is_user_exist(message.from_user.id):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
+    
     if len(message.command) != 2:
         buttons = [[
             InlineKeyboardButton('💝 𝐌𝐎𝐕𝐈𝐄𝐒 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏 ❤️‍🔥', url='https://t.me/+OG3sftDEbZ9kMzFl')
             ],[
-            InlineKeyboardButton('🔥 𝐏𝐑𝐈𝐌𝐄 𝐁𝐎𝐓`𝐒 🔥', url='https://t.me/Prime_Botz'),
+            InlineKeyboardButton('𝐏𝐑𝐈𝐌𝐄 𝐁𝐎𝐓`𝐒 🔥', url='https://t.me/Prime_Botz'),
             InlineKeyboardButton('✨ 𝐏𝐑𝐈𝐌𝐄 𝐌𝐎𝐕𝐈𝐄 ✨', url='https://t.me/Prime_Movies4U')
             ],[
             InlineKeyboardButton('🧑‍🏭𝙷𝙴𝙻𝙿*𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url='https://t.me/Prime_Admin_Support_ProBot'),
