@@ -61,8 +61,14 @@ def get_size(size):
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
     if AUTH_CHANNEL:
-        btn = await is_subscribed(client, message.from_user.id, AUTH_CHANNEL)
-        if btn:
+        try:
+            btn = await is_subscribed(client, message, AUTH_CHANNEL)
+            if btn:
+                username = (await client.get_me()).username
+                if message.command[1]:
+                    btn.append([InlineKeyboardButton("♻️ Try Again ♻️", url=f"https://t.me/{username}?start={message.command[1]}")])
+                else:
+                    btn.append([InlineKeyboardButton("♻️ Try Again ♻️", url=f"https://t.me/{username}?start=true")])
             await client.send_photo(
                 chat_id=message.from_user.id,
                 photo="https://envs.sh/AfJ.jpg",
@@ -73,9 +79,11 @@ async def start(client, message):
                     "ᴀғᴛᴇʀ ᴛʜᴀᴛ ᴄᴏᴍᴇ ʜᴇʀᴇ ᴀɢᴀɪɴ ᴀɴᴅ ꜱᴇɴᴅ ʏᴏᴜʀ ғɪʟᴇ.</b>"
                 ),
                 reply_markup=InlineKeyboardMarkup(btn)
-            )
-            return
-        
+                )
+                return
+        except Exception as e:
+            print(e)
+
     username = (await client.get_me()).username
     if not await db.is_user_exist(message.from_user.id):
         await db.add_user(message.from_user.id, message.from_user.first_name)
