@@ -65,16 +65,12 @@ async def start(client, message):
             btn = await is_subscribed(client, message, AUTH_CHANNEL)
             if btn:
                 username = (await client.get_me()).username
-                # Try Again button removed, keeping spaces intact
-                # if message.command[1]:
-                #     btn.append([InlineKeyboardButton("♻️ Try Again ♻️", url=f"https://t.me/{username}?start={message.command[1]}")])
-                # else:
-                #     btn.append([InlineKeyboardButton("♻️ Try Again ♻️", url=f"https://t.me/{username}?start=true")])
-        except Exception as e:
-            pass
-    return btn
+                if message.command[1]:
+                    btn.append([InlineKeyboardButton("♻️ Try Again ♻️", url=f"https://t.me/{username}?start={message.command[1]}")])
+                else:
+                    btn.append([InlineKeyboardButton("♻️ Try Again ♻️", url=f"https://t.me/{username}?start=true")])
                 
-                # এখানে পিকচার URL যোগ করতে হবে, উদাহরণস্বরূপ "photo='https://example.com/your_image.jpg'"
+                # এখানে পিকচার URL যোগ করতে হবে, উদাহরণস্বরূপ
                 await message.reply_photo(
                     photo="https://envs.sh/AfJ.jpg",
                     caption=(
@@ -98,7 +94,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('💝 𝐌𝐎𝐕𝐈𝐄𝐒 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏 ❤️‍🔥', url='https://t.me/+OG3sftDEbZ9kMzFl')
             ],[
-            InlineKeyboardButton('𝐏𝐑𝐈𝐌𝐄 𝐁𝐎𝐓`𝐒 🔥', url='https://t.me/Prime_Botz'),
+            InlineKeyboardButton('🔥 𝐏𝐑𝐈𝐌𝐄 𝐁𝐎𝐓`𝐒 🔥', url='https://t.me/Prime_Botz'),
             InlineKeyboardButton('✨ 𝐏𝐑𝐈𝐌𝐄 𝐌𝐎𝐕𝐈𝐄 ✨', url='https://t.me/Prime_Movies4U')
             ],[
             InlineKeyboardButton('🧑‍🏭𝙷𝙴𝙻𝙿*𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url='https://t.me/Prime_Admin_Support_ProBot'),
