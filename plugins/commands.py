@@ -65,13 +65,10 @@ async def start(client, message):
             btn = await is_subscribed(client, message, AUTH_CHANNEL)
             if btn:
                 username = (await client.get_me()).username
-                # "♻️ Try Again ♻️" button removed
-        except Exception as e:
-            pass
-    return btn
-                
-                # এখানে পিকচার URL যোগ করতে হবে, উদাহরণস্বরূপ
-                await message.reply_photo(
+                except Exception as e:
+                    pass
+                 return btn  
+                    await message.reply_photo(
                     photo="https://envs.sh/AfJ.jpg",
                     caption=(
                         "<b>Iғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜꜱᴇ ᴍᴇ ғɪʀꜱᴛ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ Jᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ.\n\n"
