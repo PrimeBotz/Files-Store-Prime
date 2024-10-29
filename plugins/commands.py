@@ -65,6 +65,7 @@ async def start(client, message):
             btn = await is_subscribed(client, message, AUTH_CHANNEL)
             if btn:
                 username = (await client.get_me()).username
+                try:
                 except Exception as e:
                     pass
                  return btn  
