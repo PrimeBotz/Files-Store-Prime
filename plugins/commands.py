@@ -75,9 +75,7 @@ async def stream_start(client, message):
                 reply_markup=InlineKeyboardMarkup(btn)
             )
             return
-        except Exception as e:
-            print(e)
-
+        
     username = (await client.get_me()).username
     if not await db.is_user_exist(message.from_user.id):
         await db.add_user(message.from_user.id, message.from_user.first_name)
