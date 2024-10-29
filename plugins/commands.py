@@ -58,8 +58,8 @@ def get_size(size):
 # Ask Doubt on telegram @KingVJ0
 
 
-@Client.on_message(filters.private & (filters.document | filters.video))
-async def stream_start(client, message):
+@Client.on_message(filters.command("start") & filters.incoming)
+async def start(client, message):
     if AUTH_CHANNEL:
         btn = await is_subscribed(client, message.from_user.id, AUTH_CHANNEL)
         if btn:
