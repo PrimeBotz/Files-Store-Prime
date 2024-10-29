@@ -60,7 +60,7 @@ def get_size(size):
 
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
-    await message.react(emoji="❤️‍🔥", big=True)
+    await message.react(emoji="🔥", big=True)
     if AUTH_CHANNEL:
         try:
             btn = await is_subscribed(client, message, AUTH_CHANNEL)
