@@ -65,10 +65,10 @@ async def start(client, message):
             btn = await is_subscribed(client, message, AUTH_CHANNEL)
             if btn:
                 username = (await client.get_me()).username
-                if message.command[1]:
-                    btn.append([InlineKeyboardButton("♻️ Try Again ♻️", url=f"https://t.me/{username}?start={message.command[1]}")])
-                else:
-                    btn.append([InlineKeyboardButton("♻️ Try Again ♻️", url=f"https://t.me/{username}?start=true")])
+                # "♻️ Try Again ♻️" button removed
+        except Exception as e:
+            pass
+    return btn
                 
                 # এখানে পিকচার URL যোগ করতে হবে, উদাহরণস্বরূপ
                 await message.reply_photo(
