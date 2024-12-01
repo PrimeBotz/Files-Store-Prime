@@ -6,7 +6,7 @@
 class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ {},ᴍʏ ɴᴀᴍᴇ {},【ɪ ᴀᴍ ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇᴅ】ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ + └sᴛʀᴇᴀᴍ / ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ғᴇᴀᴛᴜʀᴇ┘+├ᴄᴜꜱᴛᴏᴍ ᴜʀʟ ꜱʜᴏʀᴛɴᴇʀ ꜱᴜᴘᴘᴏʀᴛ┤+  ᢵᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ sᴜᴘᴘᴏʀᴛ ᢴ ᢾᴀɴᴅ ʙᴇꜱᴛ ᴜɪ ᴘᴇʀꜰᴏʀᴍᴀɴᴄᴇᢿ  
     
-  ‣ My ᴅᴇᴠᴇʟᴏᴘᴇʀ/Owner ➠ <a href=https://t.me/Prime_Nayem>𝐒.𝐇 𝐍𝐀𝐘𝐄𝐌</a></b>"""
+  ‣ <blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Prime_Botz">ᴘʀɪᴍᴇ ʙᴏᴛᴢ 🔥</a></blockquote></b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -17,7 +17,7 @@ class script(object):
 
 sɪᴢᴇ ⚙️: {file_size}
 
-Jᴏɪɴ Now ➠ [𝐌𝐎𝐕𝐈𝐄𝐒 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏 ✨](https://t.me/+OG3sftDEbZ9kMzFl)</b>""" 
+Jᴏɪɴ Now ➠ [𝐌𝐎𝐕𝐈𝐄𝐒 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏 ✨](https://t.me/Prime_Movies4U/143)</b>""" 
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -39,7 +39,7 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 
     CLONE_START_TXT = """<b>Hᴇʟʟᴏ {},ᴍʏ ɴᴀᴍᴇ {},【ɪ ᴀᴍ ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇᴅ】ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ +├ᴄᴜꜱᴛᴏᴍ ᴜʀʟ ꜱʜᴏʀᴛɴᴇʀ ꜱᴜᴘᴘᴏʀᴛ┤+  ᢵᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ sᴜᴘᴘᴏʀᴛ ᢴ ᢾᴀɴᴅ ʙᴇꜱᴛ ᴜɪ ᴘᴇʀꜰᴏʀᴍᴀɴᴄᴇᢿ
 
-ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜɪs ғᴇᴀᴛᴜʀᴇ ᴛʜᴇɴ ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ ғʀᴏᴍ ᴍʏ <a href=https://t.me/vj_botz>ᴘᴀʀᴇɴᴛ</a></b>"""
+ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜɪs ғᴇᴀᴛᴜʀᴇ ᴛʜᴇɴ ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ ғʀᴏᴍ ᴍʏ <a href=https://t.me/Prime_Movies_Store_Robot>ᴘᴀʀᴇɴᴛ</a></b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -51,13 +51,13 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 
 ⍟ 𝙼𝙰𝙸𝙽 𝙼𝙾𝚅𝙸𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻: <a href=https://t.me/Prime_Movies4U>𝐏𝐑𝐈𝐌𝐄 𝐌𝐎𝐕𝐈𝐄 ✨</a>
 
-⍟ 𝙼𝙰𝙸𝙽 𝙱𝙾𝚃'𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻: <a href=https://t.me/Prime_Botz>𝐏𝐑𝐈𝐌𝐄 𝐁𝐎𝐓'𝐒 ✨</a>
+🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href=https://t.me/Prime_Botz>ᴘʀɪᴍᴇ ʙᴏᴛᴢ ✨</a>
 
-⍟ 𝙼𝙾𝚅𝙸𝙴𝚂 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙶𝚁𝙾𝚄𝙿: <a href=https://t.me/+OG3sftDEbZ9kMzFl>𝐏𝐑𝐈𝐌𝐄 𝐌𝐎𝐕𝐈𝐄𝐒 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏</a>
+⍟ 𝙼𝙾𝚅𝙸𝙴𝚂 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙶𝚁𝙾𝚄𝙿: <a href=https://t.me/Prime_Movies4U/143>𝐏𝐑𝐈𝐌𝐄 𝐌𝐎𝐕𝐈𝐄𝐒 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏</a>
 
-🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/Prime_Nayem>𝐒.𝐇 𝐍𝐀𝐘𝐄𝐌</a>
+🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/Prime_Nayem>ᴍʀ.ᴘʀɪᴍᴇ</a>
 
-👥 𝙰𝙳𝙼𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 : <a href=https://t.me/Prime_Admin_Support_ProBot>𝐒.𝐇 𝐒𝐮𝐩𝐩𝐨𝐫𝐭</a>
+👥 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 : <a href=https://t.me/Prime_Botz_Support>ᴘʀɪᴍᴇ ʙᴏᴛ'ꜱ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ</a>
 
 📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/Prime_Movies4U>Prime 𝐔𝐩𝐝𝐚𝐭𝐞</a></b>
 """
@@ -66,11 +66,13 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 
 🤖 ᴍʏ ɴᴀᴍᴇ: {}
 
-⍟ Main Channel: <a href=https://t.me/Prime_Movies4U>Prime Movie⚡</a>
+👑 ᴏᴡɴᴇʀ: <a href=tg://user?id={}>ᴏᴡɴᴇʀ</a></b>
 
-👥 Any Problem sᴜᴘᴘᴏʀᴛ : <a href=https://t.me/Prime_Bots_Support_RoBot>𝐒.𝐇 𝐒𝐮𝐩𝐩𝐨𝐫𝐭</a>
+🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href=https://t.me/Prime_Botz>ᴘʀɪᴍᴇ ʙᴏᴛᴢ ✨</a>
 
-🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=tg://user?id={}>ᴅᴇᴠᴇʟᴏᴘᴇʀ</a></b>
+🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Prime_Nayem>ᴍʀ.ᴘʀɪᴍᴇ</a>
+
+👥 Any Problem sᴜᴘᴘᴏʀᴛ : <a href=https://t.me/Prime_Botz_Support>ᴘʀɪᴍᴇ ʙᴏᴛ'ꜱ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ</a>
 """
 
 # Don't Remove Credit Tg - @VJ_Botz
