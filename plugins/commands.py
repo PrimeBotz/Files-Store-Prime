@@ -73,7 +73,7 @@ async def start(client, message):
                 
                 # এখানে পিকচার URL যোগ করতে হবে, উদাহরণস্বরূপ
                 await message.reply_photo(
-                    photo="https://envs.sh/AfJ.jpg",
+                    photo="https://envs.sh/AHX.jpg",
                     caption=(
                         "<b>Iғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜꜱᴇ ᴍᴇ ғɪʀꜱᴛ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ Jᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ.\n\n"
                         "ғɪʀꜱᴛ, ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ '✇ Jᴏɪɴ Oᴜʀ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇' ʙᴜᴛᴛᴏɴ, ᴛʜᴇɴ, "
