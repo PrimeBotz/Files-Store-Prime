@@ -19,6 +19,7 @@ from config import *
 import re
 import json
 import base64
+from clone import clone  # clone.py থেকে clone ফাংশন ইম্পোর্ট করুন
 from urllib.parse import quote_plus
 from TechVJ.utils.file_properties import get_name, get_hash, get_media_file_size
 logger = logging.getLogger(__name__)
@@ -61,14 +62,15 @@ def get_size(size):
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
     await message.react(emoji="🔥", big=True)
-    
+
     # `message.command` চেক করুন
     if len(message.command) > 1:  # যদি command-এর সাথে কোনো প্যারামিটার থাকে
         if message.command[1] == "help":
             await message.reply("আপনার সহায়তা তথ্য!")
             return
         elif message.command[1] == "clone":
-            await message.reply("আপনি ক্লোন অপশন পেয়েছেন!")
+            # /clone ফাংশন কল করুন
+            await clone(client, message)
             return
     
     # AUTH_CHANNEL এর জন্য চেক করুন (যদি প্রয়োজন হয়)
