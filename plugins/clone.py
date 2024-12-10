@@ -86,3 +86,19 @@ async def clone_bot_buttons(client, message):
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
+async def restart_bots():
+    logging.info("Restarting all bots........")
+    bots = list(mongo_db.bots.find())
+    for bot in bots:
+        bot_token = bot['token']
+        try:
+            vj = Client(
+                f"{bot_token}", API_ID, API_HASH,
+                bot_token=bot_token,
+                plugins={"root": "clone_plugins"},
+            )
+            await vj.start()
+        except Exception as e:
+            logging.exception(f"Error while restarting bot with token {bot_token}: {e}")
+            
