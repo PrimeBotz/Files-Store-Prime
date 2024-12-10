@@ -7,7 +7,7 @@ import logging
 from pymongo import MongoClient
 from Script import script
 from pyrogram import Client, filters
-from pyrogram.types import Message
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors.exceptions.bad_request_400 import AccessTokenExpired, AccessTokenInvalid
 from config import API_ID, API_HASH, DB_URI, DB_NAME, CLONE_MODE
 
@@ -71,22 +71,18 @@ async def delete_cloned_bot(client, message):
         logging.exception("Error while deleting cloned bot.")
         await message.reply_text("An error occurred while deleting the cloned bot.")
 
+@Client.on_message(filters.command("cloneBot") & filters.private)
+async def clone_bot_buttons(client, message):
+    buttons = [
+        [InlineKeyboardButton("👨‍💻 Create a Clone Bot", url="https://t.me/Files_Store_Prime_Bot?start=clone")],
+        [InlineKeyboardButton("❌ Disconnect Your Clone Bot", url="https://t.me/Files_Store_Prime_Bot?start=deletecloned")]
+    ]
+    reply_markup = InlineKeyboardMarkup(buttons)
+    await message.reply_text(
+        "**Choose an option below:**",
+        reply_markup=reply_markup
+    )
+
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
-
-async def restart_bots():
-    logging.info("Restarting all bots........")
-    bots = list(mongo_db.bots.find())
-    for bot in bots:
-        bot_token = bot['token']
-        try:
-            vj = Client(
-                f"{bot_token}", API_ID, API_HASH,
-                bot_token=bot_token,
-                plugins={"root": "clone_plugins"},
-            )
-            await vj.start()
-        except Exception as e:
-            logging.exception(f"Error while restarting bot with token {bot_token}: {e}")
-
