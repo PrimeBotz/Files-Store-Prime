@@ -63,7 +63,7 @@ def get_size(size):
 async def start(client, message):
     await message.react(emoji="🔥", big=True)
 
-        elif message.command[1] == "deletecloned":
+        elif message.command[0] == "deletecloned":
             # /clone ফাংশন কল করুন
             await deletecloned(client, message)
             return
