@@ -19,7 +19,7 @@ from config import *
 import re
 import json
 import base64
-from clone import clone  # clone.py থেকে clone ফাংশন ইম্পোর্ট করুন
+from plugins.clone import clone  # যদি clone.py plugins ফোল্ডারে থাকে  # clone.py থেকে clone ফাংশন ইম্পোর্ট করুন
 from urllib.parse import quote_plus
 from TechVJ.utils.file_properties import get_name, get_hash, get_media_file_size
 logger = logging.getLogger(__name__)
