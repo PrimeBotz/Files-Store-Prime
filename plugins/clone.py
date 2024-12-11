@@ -84,17 +84,21 @@ async def clone_bot_buttons(client, message):
     )
 
 
+bot_active = True  # ক্লোন বটের কার্যক্রম ডিফল্টভাবে সক্রিয় থাকবে
+
 @Client.on_message(filters.command("reset") & filters.private)
 async def reset_bot(client, message):
+    global bot_active
     try:
-        # Delete all cloned bot data from MongoDB
+        # MongoDB থেকে ক্লোন বটের সমস্ত তথ্য ডিলিট করুন
         result = mongo_db.bots.delete_many({})
-        
+
         if result.deleted_count > 0:
+            # MongoDB থেকে তথ্য সফলভাবে ডিলিট হলে কার্যক্রম বন্ধ করুন
+            bot_active = False
             await message.reply_text(
-                "**✅ Reset successful! All cloned bot data has been removed from the database.**"
+                "**✅ Reset successful! All cloned bot data has been removed and the bot has stopped.**"
             )
-            # Call any function or operations to restore default state here
         else:
             await message.reply_text(
                 "**⚠️ No cloned bot data found. No reset was necessary.**"
@@ -104,6 +108,17 @@ async def reset_bot(client, message):
         await message.reply_text(
             "**❌ An error occurred, please try again.**"
         )
+
+
+@Client.on_message(filters.text)
+async def handle_message(client, message):
+    global bot_active
+    if not bot_active:
+        # যদি বট বন্ধ থাকে
+        await message.reply_text("**🔒 Bot is inactive until reset or new activity is detected.**")
+    else:
+        # যদি বট সক্রিয় থাকে
+        await message.reply_text("**🤖 Bot is processing your request.**")
 
     # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
