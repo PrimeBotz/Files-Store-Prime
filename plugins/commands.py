@@ -73,9 +73,6 @@ async def start(client, message):
             # clone ফাংশন কল করুন
             await clone(client, message)
             return
-    else:
-        await message.reply("Invalid command! Please provide a valid option.")
-
     
     # AUTH_CHANNEL এর জন্য চেক করুন (যদি প্রয়োজন হয়)
     if AUTH_CHANNEL:
