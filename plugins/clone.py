@@ -83,7 +83,29 @@ async def clone_bot_buttons(client, message):
         reply_markup=reply_markup
     )
 
-# Don't Remove Credit Tg - @VJ_Botz
+
+@Client.on_message(filters.command("reset") & filters.private)
+async def reset_bot(client, message):
+    try:
+        # Delete all cloned bot data from MongoDB
+        result = mongo_db.bots.delete_many({})
+        
+        if result.deleted_count > 0:
+            await message.reply_text(
+                "**✅ Reset successful! All cloned bot data has been removed from the database.**"
+            )
+            # Call any function or operations to restore default state here
+        else:
+            await message.reply_text(
+                "**⚠️ No cloned bot data found. No reset was necessary.**"
+            )
+    except Exception as e:
+        logging.exception("Reset Error: ")
+        await message.reply_text(
+            "**❌ An error occurred, please try again.**"
+        )
+
+    # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
