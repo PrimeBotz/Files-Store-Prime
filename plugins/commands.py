@@ -65,9 +65,9 @@ async def start(client, message):
 
     # চেক করুন যে command এ কোনো অতিরিক্ত আর্গুমেন্ট আছে কি না
     if len(message.command) > 1:
-        if message.command[1] == "deletecloned":
+        if message.command[1] == "reset":
             # deletecloned ফাংশন কল করুন
-            await delete_cloned_bot(client, message)
+            await reset_bot(client, message)
             return
         elif message.command[1] == "clone":
             # clone ফাংশন কল করুন
