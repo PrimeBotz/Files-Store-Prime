@@ -63,15 +63,19 @@ def get_size(size):
 async def start(client, message):
     await message.react(emoji="🔥", big=True)
 
-        elif message.command[0] == "deletecloned":
-            # /clone ফাংশন কল করুন
+    # চেক করুন যে command এ কোনো অতিরিক্ত আর্গুমেন্ট আছে কি না
+    if len(message.command) > 1:
+        if message.command[1] == "deletecloned":
+            # deletecloned ফাংশন কল করুন
             await deletecloned(client, message)
             return
-
         elif message.command[1] == "clone":
-            # /clone ফাংশন কল করুন
+            # clone ফাংশন কল করুন
             await clone(client, message)
             return
+    else:
+        await message.reply("Invalid command! Please provide a valid option.")
+
     
     # AUTH_CHANNEL এর জন্য চেক করুন (যদি প্রয়োজন হয়)
     if AUTH_CHANNEL:
