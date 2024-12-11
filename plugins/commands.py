@@ -19,7 +19,7 @@ from config import *
 import re
 import json
 import base64
-from plugins.clone import clone, deletecloned  # যদি clone.py plugins ফোল্ডারে থাকে  # clone.py থেকে clone ফাংশন ইম্পোর্ট করুন
+from plugins.clone import clone, delete_cloned_bot  # যদি clone.py plugins ফোল্ডারে থাকে  # clone.py থেকে clone ফাংশন ইম্পোর্ট করুন
 from urllib.parse import quote_plus
 from TechVJ.utils.file_properties import get_name, get_hash, get_media_file_size
 logger = logging.getLogger(__name__)
@@ -67,7 +67,7 @@ async def start(client, message):
     if len(message.command) > 1:
         if message.command[1] == "deletecloned":
             # deletecloned ফাংশন কল করুন
-            await deletecloned(client, message)
+            await delete_cloned_bot(client, message)
             return
         elif message.command[1] == "clone":
             # clone ফাংশন কল করুন
