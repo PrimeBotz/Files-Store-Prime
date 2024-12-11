@@ -110,16 +110,6 @@ async def reset_bot(client, message):
         )
 
 
-@Client.on_message(filters.text)
-async def handle_message(client, message):
-    global bot_active
-    if not bot_active:
-        # যদি বট বন্ধ থাকে
-        await message.reply_text("**🔒 Bot is inactive until reset or new activity is detected.**")
-    else:
-        # যদি বট সক্রিয় থাকে
-        await message.reply_text("**🤖 Bot is processing your request.**")
-
     # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
